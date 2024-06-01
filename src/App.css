@@ -1,38 +1,29 @@
-.App {
-  text-align: center;
+#SvgjsG1138 text {
+  color: white !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  fill: white !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.apexcharts-legend {
+  padding-top: 20px !important;
+  gap: 16px !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#SvgjsG1162 text {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  fill: white !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.apexcharts-legend-text {
+  color: white !important;
 }
 
-.App-link {
-  color: #61dafb;
+.apexcharts-legend .apexcharts-legend-series:nth-child(1) .apexcharts-legend-text {
+  color: #FF5733 !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.apexcharts-legend .apexcharts-legend-series:nth-child(2) .apexcharts-legend-text {
+  color: #3339FF !important;
 }
